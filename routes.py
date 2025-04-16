@@ -9,7 +9,6 @@ def handle_registration():
     registration_check = request.args.get('reg')
     first_deposit_check = request.args.get('ftd')
     trader_id = int(request.args.get('trader_id'))
-    not_first_deposit_check = request.args.get('dep')
     deposit_sum = request.args.get('sumdep')
     click_id = request.args.get('click_id')
 
